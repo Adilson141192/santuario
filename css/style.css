@@ -1,0 +1,95 @@
+:root {
+    --primary: #4682B4;
+    --secondary: #87CEEB;
+}
+
+header p {
+    font-size: 45px;
+    color: var(--primary);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+}
+
+#logo {
+    display: block;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+body {
+    background-image: url('/assets/backgroud.jpg');
+    background-size: cover;       /* Faz a imagem cobrir todo o fundo */
+    background-position: center;  /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+
+body h2, h3 {
+    text-align: center;
+    color: var(--primary);
+    padding: 10px;
+    margin: 10px;
+}
+
+body a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+body a:hover {
+    transition: 0.2s;
+}
+
+#logoImg {
+    width: 20px;
+}
+
+.promo {
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    background: none;
+    color: var(--primary);
+    margin: 30px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 2px solid var(--secondary);
+    box-shadow: 1px 1px 15px 3px rgba(19,211,214, 0.6);
+}
+
+.itens {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background: none;
+    color: var(--primary);
+    margin: 20px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 2px solid var(--secondary);
+    box-shadow: 1px 1px 15px 3px rgba(19,211,214, 0.6);
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer a {
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    margin: 10px;
+}
