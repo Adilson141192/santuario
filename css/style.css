@@ -3,7 +3,7 @@
     --secondary: #87CEEB;
 }
 
-header p {
+header h1 {
     font-size: 45px;
     color: var(--primary);
     text-transform: uppercase;
@@ -11,6 +11,10 @@ header p {
     font-weight: bold;
     padding: 5px;
     margin: 5px;
+}
+
+header h1 span {
+    display: block;
 }
 
 #logo {
@@ -29,10 +33,19 @@ body {
 }
 
 body h2, h3 {
+    text-transform: uppercase;
     text-align: center;
     color: var(--primary);
     padding: 10px;
     margin: 10px;
+}
+
+body p {
+    text-align: justify;
+    font-size: 18px;
+    color: var(--primary);
+    margin: 0px 20px;
+    padding: 10px;
 }
 
 body a {
@@ -40,26 +53,8 @@ body a {
     color: var(--primary);
 }
 
-body a:hover {
-    transition: 0.2s;
-}
-
 #logoImg {
     width: 20px;
-}
-
-.promo {
-    font-size: 25px;
-    font-weight: bolder;
-    text-align: center;
-    text-transform: uppercase;
-    background: none;
-    color: var(--primary);
-    margin: 30px;
-    padding: 6px 12px;
-    border-radius: 20px;
-    border: 2px solid var(--secondary);
-    box-shadow: 1px 1px 15px 3px rgba(19,211,214, 0.6);
 }
 
 .itens {
@@ -73,6 +68,33 @@ body a:hover {
     border-radius: 20px;
     border: 2px solid var(--secondary);
     box-shadow: 1px 1px 15px 3px rgba(19,211,214, 0.6);
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #aaa;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: var(--primary);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 footer {

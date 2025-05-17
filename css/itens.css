@@ -1,18 +1,3 @@
-body h2, h3 {
-    text-align: center;
-    color: var(--primary);
-    text-transform: uppercase;
-    margin: 20px;
-}
-
-body p {
-    text-align: justify;
-    font-size: 18px;
-    color: var(--primary);
-    margin: 0px 20px;
-    padding: 5px;
-}
-
 .itensImg {
     display: block;
     width: 300px;
@@ -26,13 +11,6 @@ body p {
     box-shadow: 1px 1px 15px 3px rgba(19,211,214, 0.6);
     padding: 10px;
     margin: 5px 80px;
-}
-
-.quero:hover {
-    font-weight: bolder;
-    border: var(--primary);
-    background: var(--secondary);
-    transition: 0.8s;
 }
 
 #seta {
